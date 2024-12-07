@@ -17,7 +17,10 @@ I just want you to use my code, that'll make me glad. If you want to give me som
 Skeumorphism is the art of creating a design that ressembles real-life objects 🔥
 
 ## How to Contribute
-We need to isolate the skeumorphic elements found in this website. To contribute just send a pull request with your static HTML code to the branch "contributions". All CSS and Javascript must be inline.
+We need to isolate the skeumorphic elements found in this website. 
+ **Just send a pull request with your static HTML code to the branch "contributions".** 
+> All CSS and Javascript must be inline.
+> If i dont see it right away, text me at gustavobayeux@gmail.com
 
 ## Why i made it
 Coding is art, i was tired of making bland corporate-looking websites. 
