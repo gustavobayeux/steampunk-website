@@ -1,5 +1,5 @@
 <?php
-//ROTEADOR PROCEDURAL
+//PROCEDURAL ROUTER
 $singleusecss = '';
 $singleusejs = '';
 
@@ -13,8 +13,8 @@ function open($view){
 <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=0">
 <meta name="keywords" content="gustavo bayeux,gbayeux,websites,sistemas,painel,dados,app,pdv,cms,site">
 <meta name="description" content="Sites, Deep Web, Sistemas personalizados | Foco em performance e segurança">
-<link rel="stylesheet" type="text/css" href="/resources/css/main.css">
-<link rel="stylesheet" type="text/css" href="/resources/css/home/general.css">
+<link rel="stylesheet" type="text/css" href="./resources/css/main.css">
+<link rel="stylesheet" type="text/css" href="./resources/css/home/general.css">
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="resources/media/favicon/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="resources/media/favicon/apple-touch-icon-114x114.png" />
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="resources/media/favicon/apple-touch-icon-72x72.png" />
@@ -42,7 +42,7 @@ function open($view){
 </head>
 <body>
 ';
-	require __DIR__ . '/resources/views/menu.html';
+	require __DIR__ . '/menu.html';
     echo '
 <main id="container">
 	';
@@ -71,7 +71,7 @@ function open($view){
 </svg>
 </a>
 </div>
-<script src="/resources/js/main.js" async></script>
+<script src="./resources/js/main.js" async></script>
 
 '.$GLOBALS['singleusejs'].'
 </footer>
@@ -81,31 +81,26 @@ function open($view){
 ';
 }
 
-if($request == '' || $request == '/'){$request = '/home';}
+if($request == '/portfolio/differtopia' || $request == '/portfolio/differtopia/'){$request = '/portfolio/differtopia/home';}
 
  switch($request){
-  case '/tech':
-  case '/tecnologia':
-  open('/resources/views/3.html');
-
-  break;
-  case '/home':
-  case '/inicio':
-  $singleusecss = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" type="text/css" href="/resources/css/home/general.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" type="text/css" href="/resources/css/home/home-header.css">';
-  $singleusejs = '<script src="/resources/js/home.js" async></script><script src="/resources/js/home-header.js" async></script>';
-  open('/resources/views/1.html');
+  case '/portfolio/differtopia/home':
+  case '/portfolio/differtopia/inicio':
+  $singleusecss = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" type="text/css" href="./resources/css/home/general.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" type="text/css" href="./resources/css/home/home-header.css">';
+  $singleusejs = '<script src="./resources/js/home.js" async></script><script src="./resources/js/home-header.js" async></script>';
+  open('/home.html');
   break; 
-  case '/services':
-  case'/serviços':
-  case'/servicos':
-  case '/servico':
-  case '/serv':
-  $singleusecss = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" type="text/css" href="/resources/css/home/general.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" type="text/css" href="/resources/css/serv/general.css">';
-  $singleusejs = '<script src="/resources/js/services.js" async></script>';
-  open('/resources/views/2.html');
+  case '/portfolio/differtopia/services':
+  case'/portfolio/differtopia/serviços':
+  case'/portfolio/differtopia/servicos':
+  case '/portfolio/differtopia/servico':
+  case '/portfolio/differtopia/serv':
+  $singleusecss = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" type="text/css" href="./resources/css/home/general.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" type="text/css" href="./resources/css/serv/general.css">';
+  $singleusejs = '<script src="./resources/js/services.js" async></script>';
+  open('/services.html');
   break;
   default: 
   http_response_code(404);
-  open('/resources/views/404.html');
+  open('404.html');
   break;
  }
