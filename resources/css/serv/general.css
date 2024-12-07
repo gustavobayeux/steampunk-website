@@ -1,0 +1,355 @@
+
+#deck span{
+	font-size:6rem;
+}
+#CDContent{
+	display:flex;
+	padding:50px;
+}
+@media (max-width:750px) {
+	#CDContent{flex-flow: column;}
+}
+#CDContent p{
+	margin-left:-1.5em;
+	font-weight:900;
+	margin:auto;
+	justify-content:center;
+	margin-top:-2.5em;
+	font-family:poppins;
+	font-weight:800;
+	font-size:1.2rem !important;
+}
+
+#CDContent figure{
+	box-shadow:0px 0px 10px black;
+	display:flex;
+	font-family:times new roman;
+	min-width:200px !important;
+	border-radius:5px;
+	height:50vh;
+	min-height:280px;
+	font-size:2rem;
+	position:relative;
+	background:#FFF;
+    color:#000;
+    will-change:transform;
+}
+#CDContent figure:hover{
+	box-shadow:0px 0px 0px !important;
+}
+
+#CDContent figure div:nth-child(1){
+ margin-left:10px;
+ margin-top:8px;
+ position:absolute;
+  line-height:1;
+  font-family:poppins;
+  font-size:1.5rem;
+}
+#CDContent figure div:nth-child(2){
+  align-self:center;
+  font-size:4rem;
+  margin:auto;
+  font-family:merriweather;
+}
+#CDContent figure div:nth-child(3){
+	left:0;
+	margin-bottom:8px;
+	bottom:0;
+	right:0;
+	padding:5px;
+	position:absolute;
+	 line-height:1;
+	 font-family:poppins;
+	 font-size:1rem;
+	 background-color: #000;
+	 color:#fff;
+}
+#deck{
+	   background-color:rgba(0, 128, 128,0.2);
+	animation:focus 3s forwards;
+	padding-top:80px;
+	display:flex;
+	
+	justify-content:space-between;
+    overflow:hidden;
+	margin:auto;
+	flex-wrap:wrap;
+	border-radius:50px;
+	padding-bottom:80px;
+}
+
+@media (max-width:451px){
+ h1{
+	  font-size:20vw !important;
+  }	
+}
+@media (min-width:452px) and (max-width:600px){
+ h1{
+	  font-size:18vw !important;
+  }	
+}
+@media (max-width:600px){
+	#deck figure{
+		margin-bottom:80px;
+	}
+}
+h1{
+	padding-top:180px;
+	z-index:2;
+	font-size:6rem;
+	text-align:left;
+	margin:0px;
+	line-height:0px !important;
+	color:#FFF;
+	display:block;
+	font-family:poppins;
+	width:100%;
+	font-weight:800;
+}
+
+.push{
+	width:80px;
+	height:160px;
+	margin-top:-67px;
+	border-style:none;
+	border-radius:100px;
+	background-color:rgb(179, 0, 0) ;
+	padding:0px;
+	position:relative;
+	box-shadow:8px 6px 30px #000,12px 12px 25px rgba(255, 255, 255, 0.6) inset,-20px 5px 20px rgba(0,0,0,0.9) inset;
+	transition:0.2s;
+  }
+
+  .push::after{
+	  box-shadow:12px -2px 25px rgba(255, 255, 255, 0.9) inset,-20px 5px 20px rgba(0,0,0,0.2) inset;
+  content:"a";
+  background-color:rgb(220, 0, 0);
+  border-radius:50px;
+  width:100%;
+  height:80px;
+  position:absolute;
+  color:transparent;
+  top:0;
+  left:0;
+  transition:0.2s;
+  }
+  .push:hover::after{
+	  transition:0.2s;
+	  box-shadow:18px -2px 18px rgba(255, 255, 255,0.7) inset,-20px 5px 20px rgba(0,0,0,0.2) inset;
+  }
+  .push:hover{
+	  cursor:pointer;
+	  transition:0.2s;
+	  width:76px;
+	  height:130px;
+	  margin-top:-37px;
+	  border-style:none;
+	  border-radius:100px;
+	  padding:0px;
+	  position:relative;
+	  box-shadow:8px 6px 30px #000,12px 20px 25px rgba(255, 255, 255, 0.6) inset,-20px 2px 20px rgba(0,0,0,0.9) inset;
+	  
+  }
+  .push:active::after{
+	height:74px;
+  }
+  .push:active{
+	  cursor:pointer;
+	  transition:0.2s;
+	  width:72px;
+	  height:93px;
+	  margin-top:6px;
+	  border-style:none;
+	  border-radius:100px;
+	  padding:0px;
+	  position:relative;
+	  
+  }
+  .pushContainer{
+	box-shadow:0px 12px 20px #000;
+	z-index:2;
+	position:relative;
+	  -webkit-transform: perspective(300px) rotateX(50deg);    
+	margin:auto;
+	width:150px;
+	height:150px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-size:cover;
+	border-left-color:#888;
+	border-top-color:#888;
+	border-right-color:#181818;
+	border-bottom-color:#282828;
+	border-width:12px;
+	border-style:solid;
+	border-bottom-width:20px;
+	background:linear-gradient(120deg,rgba(255,255,255,0.2)10%, rgba(0,0,0,0.5)60%),url('../../media/metal.webp');
+}
+
+.pushWrapper{
+	text-align:center;
+	perspective: none;
+	margin:auto;
+	
+}
+.pushWrapper h2{
+	padding:5px;
+	background:url('../../media/metal.webp');
+    z-index:2;
+	position:relative;
+	text-shadow: 0px -2px 1px rgba(255,255,255,.3), 0px 1px 1px rgba(0,0,0,.7);
+	color:rgb(43, 43, 43);
+	font-size:2rem;
+}
+
+.pedestal{z-index:0;
+	position:relative;
+	width:80px;
+	height:200px;
+	box-shadow:8px 0px 15px rgba(255, 255, 255, 0.5) inset,-8px 0px 15px black inset;
+	background:url('../../media/metal.webp'),url('../../media/paint.webp');
+	background-blend-mode:hard-light;
+	background-size: cover;
+	margin:auto;
+	margin-top:-120px;
+}
+@media (min-width:491px) and (max-width:720px){
+	
+	#deck{width:515px;text-align:center; }
+	body{overflow:visible !important}
+	.pedestal{margin-top: -400px !important; height:500px; }
+	.hidemobile{display:none!important}
+	}
+@media (max-width:490px){
+	.pedestal{margin-top: -670px!important; height:800px; position: absolute; left: 0; right: 0;}
+    #deck{width:320px !important; text-align:center;}
+}
+
+@media(max-width:720px){
+	#CDContent{height: 650px !important; width:70vw !important;}
+	.pushWrapper h2{margin-top:-16px; z-index:1;}
+}
+#CDContent{
+	border:solid 6px #FFF;
+	box-shadow:0px 0px 15px #FFF;
+	position:absolute;
+	margin:auto;
+	height:400px;
+	width:60vw;
+	backdrop-filter: blur(10px);
+	margin-top:-150vh;
+	left:0;
+	right:0;
+	z-index:9998;
+	background-color: #00000089;
+}
+.sidePedestal{
+	position:relative;
+	z-index:9996;
+	width:100vw;
+	height:40px;
+	background:url('../../media/metal.webp');
+	box-shadow:0px 8px 15px rgba(255, 255, 255, 0.5) inset,0px -8px 15px black inset;
+}
+.chainOpen{
+	
+	-webkit-clip-path: polygon(100% 50%, 100% 100%, 0px 100%, 0px 0px, 100% 0px, 100% 50%, 75% 50%, 74.8758% 47.5108%, 74.5043% 45.0463%, 73.8893% 42.6311%, 73.0369% 40.2891%, 71.9555% 38.0437%, 70.656% 35.917%, 69.1511% 33.9303%, 67.4559% 32.1033%, 65.5872% 30.4542%, 63.5637% 28.9994%, 61.4053% 27.7532%, 59.1335% 26.7282%, 56.771% 25.9344%, 54.3412% 25.3798%, 51.8683% 25.0699%, 49.3767% 25.0078%, 46.8914% 25.194%, 44.437% 25.6268%, 42.0378% 26.3018%, 39.7178% 27.2124%, 37.5% 28.3494%, 35.4064% 29.7015%, 33.4579% 31.2555%, 31.6737% 32.9957%, 30.0717% 34.9049%, 28.6677% 36.9641%, 27.4758% 39.1529%, 26.5077% 41.4495%, 25.7731% 43.8311%, 25.2792% 46.2739%, 25.0311% 48.7539%, 25.0311% 51.2461%, 25.2792% 53.7261%, 25.7731% 56.1689%, 26.5077% 58.5505%, 27.4758% 60.8471%, 28.6677% 63.0359%, 30.0717% 65.0951%, 31.6737% 67.0043%, 33.4579% 68.7445%, 35.4064% 70.2985%, 37.5% 71.6506%, 39.7178% 72.7876%, 42.0378% 73.6982%, 44.437% 74.3732%, 46.8914% 74.806%, 49.3767% 74.9922%, 51.8683% 74.9301%, 54.3412% 74.6202%, 56.771% 74.0656%, 59.1335% 73.2718%, 61.4053% 72.2468%, 63.5637% 71.0006%, 65.5872% 69.5458%, 67.4559% 67.8967%, 69.1511% 66.0697%, 70.656% 64.083%, 71.9555% 61.9563%, 73.0369% 59.7109%, 73.8893% 57.3689%, 74.5043% 54.9537%, 74.8758% 52.4892%, 75% 50%);
+	clip-path: polygon(100% 50%, 100% 100%, 0px 100%, 0px 0px, 100% 0px, 100% 50%, 75% 50%, 74.8758% 47.5108%, 74.5043% 45.0463%, 73.8893% 42.6311%, 73.0369% 40.2891%, 71.9555% 38.0437%, 70.656% 35.917%, 69.1511% 33.9303%, 67.4559% 32.1033%, 65.5872% 30.4542%, 63.5637% 28.9994%, 61.4053% 27.7532%, 59.1335% 26.7282%, 56.771% 25.9344%, 54.3412% 25.3798%, 51.8683% 25.0699%, 49.3767% 25.0078%, 46.8914% 25.194%, 44.437% 25.6268%, 42.0378% 26.3018%, 39.7178% 27.2124%, 37.5% 28.3494%, 35.4064% 29.7015%, 33.4579% 31.2555%, 31.6737% 32.9957%, 30.0717% 34.9049%, 28.6677% 36.9641%, 27.4758% 39.1529%, 26.5077% 41.4495%, 25.7731% 43.8311%, 25.2792% 46.2739%, 25.0311% 48.7539%, 25.0311% 51.2461%, 25.2792% 53.7261%, 25.7731% 56.1689%, 26.5077% 58.5505%, 27.4758% 60.8471%, 28.6677% 63.0359%, 30.0717% 65.0951%, 31.6737% 67.0043%, 33.4579% 68.7445%, 35.4064% 70.2985%, 37.5% 71.6506%, 39.7178% 72.7876%, 42.0378% 73.6982%, 44.437% 74.3732%, 46.8914% 74.806%, 49.3767% 74.9922%, 51.8683% 74.9301%, 54.3412% 74.6202%, 56.771% 74.0656%, 59.1335% 73.2718%, 61.4053% 72.2468%, 63.5637% 71.0006%, 65.5872% 69.5458%, 67.4559% 67.8967%, 69.1511% 66.0697%, 70.656% 64.083%, 71.9555% 61.9563%, 73.0369% 59.7109%, 73.8893% 57.3689%, 74.5043% 54.9537%, 74.8758% 52.4892%, 75% 50%);
+	height:70px;
+	width:40px;
+	border-radius:300px;
+	background-color:#888;
+	border:#000;
+    border:solid 2px #000;
+	z-index:9997;
+	position:relative;
+}
+.chainClosed{
+	
+	z-index:9998;
+    height:60px;
+	margin-top:-35px;
+	margin-bottom:-35px;
+	width:15px;
+    margin-left:13px;
+	border-radius:300px;
+	background-color:#888;
+	border:solid 2px #000;
+	position:relative;
+}
+.goDown{
+	animation:goDown 2s forwards;
+}
+@keyframes goDown{
+	0%{margin-top:-150vh;}
+	50%{margin-top:-100vh;}
+	100%{margin-top:0vh;}
+}
+
+.goUp{
+	animation:goUp 1s forwards;
+}
+@keyframes goUp{
+	0%{margin-top:0vh; }
+	50%{margin-top:-100vh;}
+	100%{margin-top:-150vh;}
+}
+
+.CDgoDown{
+	animation:CDgoDown 2s forwards;
+	background-color:red;
+}
+@keyframes CDgoDown{
+	0%{margin-top:-150vh;}
+	50%{margin-top:-100vh;}
+	100%{margin-top: 220px;}
+}
+
+.CDgoUp{
+	animation:CDgoUp 1s forwards;
+}
+@keyframes CDgoUp{
+	0%{margin-top: 220px;}
+	50%{margin-top:-100vh;}
+	100%{margin-top:-150vh;}
+}
+
+#servChain1{
+	width:30px;
+	height:100vh;
+	fill:#FFF;
+	position:absolute;
+	z-index:9990;
+	left:0;
+    margin-top:-150vh;
+}
+#servChain2{
+	width:30px;
+	height:100vh;
+	fill:#FFF;
+	position:absolute;
+	z-index:9997;
+	right:0;
+    
+    margin-top:-150vh;
+}
+#closeButton{
+	transition:0.5s;
+	position:absolute;
+	right:0;
+	top:0;
+	color:#FFF;
+	font-size:2rem;
+	text-shadow:0px 0px 15px #FFF;
+	background: none;
+	border:none;
+    cursor:pointer;
+}
+#closeButton:hover{
+
+	color:#ff0000;
+	text-shadow:0px 0px 20px #ff0000;
+
+}

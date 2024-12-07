@@ -1,0 +1,2451 @@
+article,figure{margin:0; padding:0;}
+#sitePresenting{
+	 background-image:-webkit-linear-gradient(310deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../../media/homebg.webp');
+	 background-image:linear-gradient(140deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../../media/homebg.webp');
+	 background-size:cover;
+     background-position:right;
+	 width:100vw;
+	 box-sizing:border-box;
+	 position:static;
+	 height:600px !important;
+	 padding:0px;
+	 padding-bottom:2rem;
+	 display:-webkit-box;
+	 display:-ms-flexbox;
+	 display:flex;
+	 -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 97.5% 96.5%, 95% 99%, 92% 99%, 89% 100%, 86% 99%, 83% 100%, 77% 99%, 72% 100%, 66% 98%, 62% 100%, 59% 99%, 54% 99%, 49% 100%, 46% 98%, 43% 100%, 40% 98%, 38% 100%, 35% 99%, 31% 100%, 28% 99%, 25% 99%, 22% 100%, 19% 99%, 16% 100%, 13% 99%, 10% 99%, 7% 100%, 4% 99%, 2% 97%, 0% 97.75%);
+	         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 97.5% 96.5%, 95% 99%, 92% 99%, 89% 100%, 86% 99%, 83% 100%, 77% 99%, 72% 100%, 66% 98%, 62% 100%, 59% 99%, 54% 99%, 49% 100%, 46% 98%, 43% 100%, 40% 98%, 38% 100%, 35% 99%, 31% 100%, 28% 99%, 25% 99%, 22% 100%, 19% 99%, 16% 100%, 13% 99%, 10% 99%, 7% 100%, 4% 99%, 2% 97%, 0% 97.75%);
+	 
+	}
+	#sitePresentingContainer{
+		z-index:9996;
+		position:relative;
+		padding:0px;
+		margin:0px;-webkit-filter: drop-shadow(0px 16px 8px rgb(0, 0, 0));filter: drop-shadow(0px 16px 8px rgb(0, 0, 0));
+	}
+#steamContainer{will-change: transform;   
+	scale:87% !important;
+	-webkit-transform-origin:center center;
+	        transform-origin:center center;
+	-webkit-animation:rotateGear 40s infinite;
+	        animation:rotateGear 40s infinite;
+    width:-webkit-fit-content;
+    width:-moz-fit-content;
+    width:fit-content;
+	height:-webkit-fit-content;
+	height:-moz-fit-content;
+	height:fit-content;
+	overflow:visible;
+	margin:0px;
+	padding-right:55px;
+	padding-bottom:18px;
+	margin-left:-80px;
+}
+
+
+.steamSquare{
+	display:static;
+	-webkit-transition:1s;
+	transition:1s;
+	color:white;
+	text-align:center;
+	width:76px;
+	height:108px !important;
+    
+}
+
+
+.steamSquare div{
+	-webkit-transform:rotate(270deg);
+	        transform:rotate(270deg);
+	z-index:1;
+	overflow:visible;
+	position:absolute;
+	left:15px;
+   	top:8px;
+	line-height:18px;
+    color:white;
+    text-shadow:0px 0px 10px white;
+}
+.steamSquare div svg{
+	fill: #fff;
+-webkit-transform: scale(1.2);
+        transform: scale(1.2);
+	 -webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));
+	         filter: drop-shadow(0px 0px 8px rgb(255,255,255));
+}
+.steamSides{
+	-ms-flex-item-align:center;
+	    -ms-grid-row-align:center;
+	    align-self:center;
+	
+}
+
+#steamMiddle{
+	z-index: 1;
+	-webkit-animation:steamMiddle 40s infinite;
+	        animation:steamMiddle 40s infinite;
+	z-index:2;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.6) inset;
+    width:336px;
+	height:336px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	overflow:hidden;
+    border-radius:200%;
+	margin:-20px;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	border-left-color:#4C4C4C;
+	border-top-color:#4C4C4C;
+	border-bottom-color:#B2B2B2;
+	border-right-color:#B2B2B2;
+	border-width:6px;
+	border-style:solid;
+	-webkit-clip-path: polygon(100% 50%, 100% 100%, 0px 100%, 0px 0px, 100% 0px, 100% 50%, 75% 50%, 74.8758% 47.5108%, 74.5043% 45.0463%, 73.8893% 42.6311%, 73.0369% 40.2891%, 71.9555% 38.0437%, 70.656% 35.917%, 69.1511% 33.9303%, 67.4559% 32.1033%, 65.5872% 30.4542%, 63.5637% 28.9994%, 61.4053% 27.7532%, 59.1335% 26.7282%, 56.771% 25.9344%, 54.3412% 25.3798%, 51.8683% 25.0699%, 49.3767% 25.0078%, 46.8914% 25.194%, 44.437% 25.6268%, 42.0378% 26.3018%, 39.7178% 27.2124%, 37.5% 28.3494%, 35.4064% 29.7015%, 33.4579% 31.2555%, 31.6737% 32.9957%, 30.0717% 34.9049%, 28.6677% 36.9641%, 27.4758% 39.1529%, 26.5077% 41.4495%, 25.7731% 43.8311%, 25.2792% 46.2739%, 25.0311% 48.7539%, 25.0311% 51.2461%, 25.2792% 53.7261%, 25.7731% 56.1689%, 26.5077% 58.5505%, 27.4758% 60.8471%, 28.6677% 63.0359%, 30.0717% 65.0951%, 31.6737% 67.0043%, 33.4579% 68.7445%, 35.4064% 70.2985%, 37.5% 71.6506%, 39.7178% 72.7876%, 42.0378% 73.6982%, 44.437% 74.3732%, 46.8914% 74.806%, 49.3767% 74.9922%, 51.8683% 74.9301%, 54.3412% 74.6202%, 56.771% 74.0656%, 59.1335% 73.2718%, 61.4053% 72.2468%, 63.5637% 71.0006%, 65.5872% 69.5458%, 67.4559% 67.8967%, 69.1511% 66.0697%, 70.656% 64.083%, 71.9555% 61.9563%, 73.0369% 59.7109%, 73.8893% 57.3689%, 74.5043% 54.9537%, 74.8758% 52.4892%, 75% 50%);
+	        clip-path: polygon(100% 50%, 100% 100%, 0px 100%, 0px 0px, 100% 0px, 100% 50%, 75% 50%, 74.8758% 47.5108%, 74.5043% 45.0463%, 73.8893% 42.6311%, 73.0369% 40.2891%, 71.9555% 38.0437%, 70.656% 35.917%, 69.1511% 33.9303%, 67.4559% 32.1033%, 65.5872% 30.4542%, 63.5637% 28.9994%, 61.4053% 27.7532%, 59.1335% 26.7282%, 56.771% 25.9344%, 54.3412% 25.3798%, 51.8683% 25.0699%, 49.3767% 25.0078%, 46.8914% 25.194%, 44.437% 25.6268%, 42.0378% 26.3018%, 39.7178% 27.2124%, 37.5% 28.3494%, 35.4064% 29.7015%, 33.4579% 31.2555%, 31.6737% 32.9957%, 30.0717% 34.9049%, 28.6677% 36.9641%, 27.4758% 39.1529%, 26.5077% 41.4495%, 25.7731% 43.8311%, 25.2792% 46.2739%, 25.0311% 48.7539%, 25.0311% 51.2461%, 25.2792% 53.7261%, 25.7731% 56.1689%, 26.5077% 58.5505%, 27.4758% 60.8471%, 28.6677% 63.0359%, 30.0717% 65.0951%, 31.6737% 67.0043%, 33.4579% 68.7445%, 35.4064% 70.2985%, 37.5% 71.6506%, 39.7178% 72.7876%, 42.0378% 73.6982%, 44.437% 74.3732%, 46.8914% 74.806%, 49.3767% 74.9922%, 51.8683% 74.9301%, 54.3412% 74.6202%, 56.771% 74.0656%, 59.1335% 73.2718%, 61.4053% 72.2468%, 63.5637% 71.0006%, 65.5872% 69.5458%, 67.4559% 67.8967%, 69.1511% 66.0697%, 70.656% 64.083%, 71.9555% 61.9563%, 73.0369% 59.7109%, 73.8893% 57.3689%, 74.5043% 54.9537%, 74.8758% 52.4892%, 75% 50%);
+    
+}
+#steamMiddle:before{
+	
+	-webkit-animation:rotateSteamMiddleBG 40s infinite;
+	
+	        animation:rotateSteamMiddleBG 40s infinite;
+	 content: "";
+	     width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -8;
+    position: absolute;
+	background-image:url('../../media/metal.webp');
+}
+#steamMiddle:after{
+	
+	 content: "";
+	     width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -8;
+    position: absolute;
+	background-image:-webkit-linear-gradient(310deg,rgba(20,20,20,0.8) 50%, rgba(255,255,255,0.5));
+	background-image:linear-gradient(140deg,rgba(20,20,20,0.8) 50%, rgba(255,255,255,0.5));
+}
+.steamCornerLeft{
+	height:110px;
+	-webkit-transform:rotate(45deg);
+	        transform:rotate(45deg);
+}
+.steamCornerRight{
+	height:110px;
+	-webkit-transform:rotate(-45deg);
+	        transform:rotate(-45deg);
+}
+#steam-1 svg{
+ -webkit-animation:steam-1SVG 40s infinite;
+         animation:steam-1SVG 40s infinite;	
+}
+#steam-2 svg{
+ -webkit-animation:steam-2SVG 40s infinite;
+         animation:steam-2SVG 40s infinite;	
+}
+#steam-3 svg{
+ -webkit-animation:steam-3SVG 40s infinite;
+         animation:steam-3SVG 40s infinite;	
+}
+#steam-4 svg{
+ -webkit-animation:steam-4SVG 40s infinite;
+         animation:steam-4SVG 40s infinite;	
+}
+#steam-5 svg{
+ -webkit-animation:steam-5SVG 40s infinite;
+         animation:steam-5SVG 40s infinite;	
+}
+#steam-6 svg{
+ -webkit-animation:steam-6SVG 40s infinite;
+         animation:steam-6SVG 40s infinite;	
+}
+#steam-7 svg{
+ -webkit-animation:steam-7SVG 40s infinite;
+         animation:steam-7SVG 40s infinite;	
+}
+#steam-8 svg{
+ -webkit-animation:steam-8SVG 40s infinite;
+         animation:steam-8SVG 40s infinite;	
+}
+
+@-webkit-keyframes steam-1SVG{
+	0%{}
+	12.5%{}
+	25%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	37.5%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	50%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+
+@keyframes steam-1SVG{
+	0%{}
+	12.5%{}
+	25%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	37.5%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	50%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@-webkit-keyframes steam-2SVG{
+	0%{}
+	12.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	25%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	37.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	50%{}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@keyframes steam-2SVG{
+	0%{}
+	12.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	25%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	37.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	50%{}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@-webkit-keyframes steam-3SVG{
+	0%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	12.5%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	25%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	37.5%{}
+	50%{}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@keyframes steam-3SVG{
+	0%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	12.5%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	25%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	37.5%{}
+	50%{}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@-webkit-keyframes steam-4SVG{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	50%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	62.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@keyframes steam-4SVG{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	50%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	62.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	75%{}
+	87.5%{}
+	100%{}
+}
+
+@-webkit-keyframes steam-6SVG{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	62.5%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	75%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	87.5%{}
+	100%{}
+}
+
+@keyframes steam-6SVG{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	62.5%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	75%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	87.5%{}
+	100%{}
+}
+@-webkit-keyframes steam-7SVG{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{}
+	62.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	75%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	87.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	100%{}
+}
+@keyframes steam-7SVG{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{}
+	62.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	75%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	87.5%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	100%{}
+}
+@-webkit-keyframes steam-8SVG{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{}
+	62.5%{}
+	75%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	87.5%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	100%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+}
+@keyframes steam-8SVG{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{}
+	62.5%{}
+	75%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+	87.5%{fill:#1d393b; box-shadow:0px 0px 0px;-webkit-filter: drop-shadow(0px 0px 0px #1D3537);filter: drop-shadow(0px 0px 0px #1D3537);}
+	100%{fill:white;-webkit-filter: drop-shadow(0px 0px 8px rgb(255,255,255));filter: drop-shadow(0px 0px 8px rgb(255,255,255));}
+}
+
+#steam-1{
+	-webkit-animation:steam-1 40s infinite;
+	        animation:steam-1 40s infinite;
+	/* BORDER */
+	border-left:12px solid #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	
+	/*GRADIENT*/
+    background:-webkit-linear-gradient(310deg,rgb(90,90,90) 40%,rgb(90,90,90));
+    background:linear-gradient(140deg,rgb(90,90,90) 40%,rgb(90,90,90));
+	
+	
+    margin-left:120px;
+	position: relative;
+    bottom: -62px;
+	
+	
+}
+
+
+#steam-2{
+	-webkit-animation:steam-2 40s infinite;
+	        animation:steam-2 40s infinite;
+	/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	
+	/*GRADIENT*/
+	background:-webkit-linear-gradient(310deg,rgb(90,90,90) 40%,rgb(90,90,90));
+	background:linear-gradient(140deg,rgb(90,90,90) 40%,rgb(90,90,90));
+	
+	margin:0px 50px 0px 50px;
+	position: relative;
+    
+	height:100px;
+}
+
+
+#steam-3{
+	-webkit-animation:steam-3 40s infinite;
+	        animation:steam-3 40s infinite;
+	/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid rgb(150,150,150);
+	border-top:12px solid #4c4c4c;
+	
+	/*GRADIENT*/
+	background:
+    -webkit-linear-gradient(left,rgb(90,90,90) 20%,rgb(150,150,150));
+	background:
+    linear-gradient(90deg,rgb(90,90,90) 20%,rgb(150,150,150));
+		position: relative;
+    
+	
+	bottom: -62px;
+}
+
+
+#steam-4{
+	-webkit-animation:steam-4 40s infinite;
+	        animation:steam-4 40s infinite;
+	/* BORDER */
+	border-left:12px solid #4c4c4c;
+	border-right:12px solid #3f3f3f;
+	border-top:12px solid #3f3f3f;
+	
+	/*GRADIENT*/
+	background:rgb(90,90,90);
+	position:relative;
+	left:-5px;
+	margin-left:70px;
+    -webkit-transform:rotate(-90deg);
+            transform:rotate(-90deg);
+}
+
+
+#steam-5{
+	-webkit-animation:steam-5 40s infinite;
+	        animation:steam-5 40s infinite;
+	/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid rgb(170,170,170);
+	border-top:12px solid rgb(150,150,150);
+	
+	/*GRADIENT*/
+	background:
+	-webkit-linear-gradient(350deg,rgb(170,170,170) 20%,rgb(200,200,200));
+	background:
+	linear-gradient(100deg,rgb(170,170,170) 20%,rgb(200,200,200));
+	
+	
+	-webkit-transform:rotate(90deg);
+	
+	
+	        transform:rotate(90deg);
+}
+
+#steam-6{
+	-webkit-animation:steam-6 40s infinite;
+	        animation:steam-6 40s infinite;
+	/* BORDER */
+	border-left:12px solid rgb(170,170,170);
+	border-right:12px solid #3f3f3f;
+	border-top:12px solid #4c4c4c;
+	
+	/*GRADIENT*/
+	background:
+    -webkit-linear-gradient(190deg,rgb(100,100,100) 20%,rgb(190,190,190));
+	background:
+    linear-gradient(-100deg,rgb(100,100,100) 20%,rgb(190,190,190));
+	
+	
+	margin-left:122px;
+	margin-top:-65px;
+	-webkit-transform:rotate(-138deg);
+	        transform:rotate(-138deg);
+}
+
+#steam-7{
+	-webkit-animation:steam-7 40s infinite;
+	        animation:steam-7 40s infinite;
+	/* BORDER */
+	border-left:12px solid rgb(170,170,170);
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid rgb(170,170,170);
+	
+	/*GRADIENT*/	
+	background:
+    -webkit-linear-gradient(320deg,rgb(210,210,210) 30%,rgb(180,180,180));	
+	background:
+    linear-gradient(130deg,rgb(210,210,210) 30%,rgb(180,180,180));
+	
+	
+	-webkit-transform:rotate(180deg);
+	
+	
+	        transform:rotate(180deg);
+	margin:0px 50px 0px 50px;
+}
+
+#steam-8{
+	-webkit-animation:steam-8 40s infinite;
+	        animation:steam-8 40s infinite;
+	/* BORDER */
+	border-left:12px solid rgb(170,170,170);
+	border-right:12px solid rgb(170,170,170);
+	border-top:12px solid rgb(210,210,210);
+	
+	/*GRADIENT*/	
+	background:
+    -webkit-linear-gradient(320deg,rgb(210,210,210) 20%,rgb(210,210,210));	
+	background:
+    linear-gradient(130deg,rgb(210,210,210) 20%,rgb(210,210,210));
+	
+	
+	margin-top:-70px;
+	-webkit-transform:rotate(138deg);
+	        transform:rotate(138deg);
+}
+
+
+
+@-webkit-keyframes rotateGear{
+	0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+	12.5%{-webkit-transform:rotate(45deg);transform:rotate(45deg);}/*OK Sites editáveis*/
+	
+	25%{-webkit-transform:rotate(87deg);transform:rotate(87deg);}/* OK Catálogo online*/
+	
+	37.5%{-webkit-transform:rotate(132deg);transform:rotate(132deg);}/*OK Landing Page*/
+	
+	50%{-webkit-transform:rotate(177deg);transform:rotate(177deg);}/*OK Sistema de gestão*/
+	
+	62.5%{-webkit-transform:rotate(227deg);transform:rotate(227deg);}/*OK Catálogo online*/
+	
+	75%{-webkit-transform:rotate(270deg);transform:rotate(270deg);}/*OK Assesoria web*/
+	87.5%{-webkit-transform:rotate(310deg);transform:rotate(310deg);}/*OK Site WordPress*/
+	100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}/*OK Sistemas sociais*/
+}
+
+
+
+@keyframes rotateGear{
+	0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+	12.5%{-webkit-transform:rotate(45deg);transform:rotate(45deg);}/*OK Sites editáveis*/
+	
+	25%{-webkit-transform:rotate(87deg);transform:rotate(87deg);}/* OK Catálogo online*/
+	
+	37.5%{-webkit-transform:rotate(132deg);transform:rotate(132deg);}/*OK Landing Page*/
+	
+	50%{-webkit-transform:rotate(177deg);transform:rotate(177deg);}/*OK Sistema de gestão*/
+	
+	62.5%{-webkit-transform:rotate(227deg);transform:rotate(227deg);}/*OK Catálogo online*/
+	
+	75%{-webkit-transform:rotate(270deg);transform:rotate(270deg);}/*OK Assesoria web*/
+	87.5%{-webkit-transform:rotate(310deg);transform:rotate(310deg);}/*OK Site WordPress*/
+	100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}/*OK Sistemas sociais*/
+}
+
+
+/* SHADOW AND LIGHT */
+@-webkit-keyframes rotateSteamMiddleBG{
+	0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+	
+	12.5%{-webkit-transform:rotate(45deg);transform:rotate(45deg);}/*OK Sites editáveis*/
+	
+	25%{-webkit-transform:rotate(87deg);transform:rotate(87deg);}/* OK Catálogo online*/
+	
+	37.5%{-webkit-transform:rotate(132deg);transform:rotate(132deg);}/*OK Landing Page*/
+	
+	50%{-webkit-transform:rotate(177deg);transform:rotate(177deg);}/*OK Sistema de gestão*/
+	
+	62.5%{-webkit-transform:rotate(227deg);transform:rotate(227deg);}/*OK Catálogo online*/
+	
+	75%{-webkit-transform:rotate(270deg);transform:rotate(270deg);}/*OK Assesoria web*/
+	87.5%{-webkit-transform:rotate(310deg);transform:rotate(310deg);}/*OK Site WordPress*/
+	100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}/*OK Sistemas sociais*/
+}
+@keyframes rotateSteamMiddleBG{
+	0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+	
+	12.5%{-webkit-transform:rotate(45deg);transform:rotate(45deg);}/*OK Sites editáveis*/
+	
+	25%{-webkit-transform:rotate(87deg);transform:rotate(87deg);}/* OK Catálogo online*/
+	
+	37.5%{-webkit-transform:rotate(132deg);transform:rotate(132deg);}/*OK Landing Page*/
+	
+	50%{-webkit-transform:rotate(177deg);transform:rotate(177deg);}/*OK Sistema de gestão*/
+	
+	62.5%{-webkit-transform:rotate(227deg);transform:rotate(227deg);}/*OK Catálogo online*/
+	
+	75%{-webkit-transform:rotate(270deg);transform:rotate(270deg);}/*OK Assesoria web*/
+	87.5%{-webkit-transform:rotate(310deg);transform:rotate(310deg);}/*OK Site WordPress*/
+	100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}/*OK Sistemas sociais*/
+}
+@-webkit-keyframes steamMiddle{
+	0%{-webkit-transform:rotate(-30deg);transform:rotate(-30deg);}
+	12.5%{-webkit-transform:rotate(-75deg);transform:rotate(-75deg);}/*OK Sites editáveis*/
+	
+	25%{-webkit-transform:rotate(-117deg);transform:rotate(-117deg);}/* OK Catálogo online*/
+	
+	37.5%{-webkit-transform:rotate(-162deg);transform:rotate(-162deg);}/*OK Landing Page*/
+	
+	50%{-webkit-transform:rotate(-207deg);transform:rotate(-207deg);}/*OK Sistema de gestão*/
+	
+	62.5%{-webkit-transform:rotate(-257deg);transform:rotate(-257deg);}/*OK Catálogo online*/
+	
+	75%{-webkit-transform:rotate(-300deg);transform:rotate(-300deg);}/*OK Assesoria web*/
+	87.5%{-webkit-transform:rotate(-340deg);transform:rotate(-340deg);}/*OK Site WordPress*/
+	100%{-webkit-transform:rotate(-390deg);transform:rotate(-390deg);}/*OK Sistemas sociais*/
+	}
+@keyframes steamMiddle{
+	0%{-webkit-transform:rotate(-30deg);transform:rotate(-30deg);}
+	12.5%{-webkit-transform:rotate(-75deg);transform:rotate(-75deg);}/*OK Sites editáveis*/
+	
+	25%{-webkit-transform:rotate(-117deg);transform:rotate(-117deg);}/* OK Catálogo online*/
+	
+	37.5%{-webkit-transform:rotate(-162deg);transform:rotate(-162deg);}/*OK Landing Page*/
+	
+	50%{-webkit-transform:rotate(-207deg);transform:rotate(-207deg);}/*OK Sistema de gestão*/
+	
+	62.5%{-webkit-transform:rotate(-257deg);transform:rotate(-257deg);}/*OK Catálogo online*/
+	
+	75%{-webkit-transform:rotate(-300deg);transform:rotate(-300deg);}/*OK Assesoria web*/
+	87.5%{-webkit-transform:rotate(-340deg);transform:rotate(-340deg);}/*OK Site WordPress*/
+	100%{-webkit-transform:rotate(-390deg);transform:rotate(-390deg);}/*OK Sistemas sociais*/
+	}
+@-webkit-keyframes steam-1{
+	0%{
+	/* BORDER */
+	border-left:12px solid #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(100,100,100);
+
+
+	}
+    12.5%{
+	/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+	/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+
+   	}/*3 OK Landing Page*/
+
+	50%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+	
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+	}/*6 OK Assesoria web*/
+	87.5%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+	}/*7 OK Site WordPress*/
+	100%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	}/*8 OK Sistemas sociais*/
+}
+@keyframes steam-1{
+	0%{
+	/* BORDER */
+	border-left:12px solid #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(100,100,100);
+
+
+	}
+    12.5%{
+	/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+	/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+
+   	}/*3 OK Landing Page*/
+
+	50%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+	
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+	}/*6 OK Assesoria web*/
+	87.5%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+	}/*7 OK Site WordPress*/
+	100%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	}/*8 OK Sistemas sociais*/
+}
+
+@-webkit-keyframes steam-2{
+	0%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+
+	}
+    12.5%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+
+   	}/*3 OK Landing Page*/
+
+	50%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+	
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+	}/*6 OK Assesoria web*/
+	87.5%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	}/*7 OK Site WordPress*/
+	100%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+
+	}/*8 OK Sistemas sociais*/
+}
+
+@keyframes steam-2{
+	0%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+
+	}
+    12.5%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+
+   	}/*3 OK Landing Page*/
+
+	50%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+	
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+	}/*6 OK Assesoria web*/
+	87.5%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	}/*7 OK Site WordPress*/
+	100%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+
+	}/*8 OK Sistemas sociais*/
+}
+
+@-webkit-keyframes steam-3{
+	0%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+
+	}
+    12.5%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+
+   	}/*3 OK Landing Page*/
+
+	50%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+	
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	}/*6 OK Assesoria web*/
+	87.5%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	}/*7 OK Site WordPress*/
+	100%{
+
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	}/*8 OK Sistemas sociais*/
+}
+
+@keyframes steam-3{
+	0%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+
+	}
+    12.5%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+
+   	}/*3 OK Landing Page*/
+
+	50%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+	
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	}/*6 OK Assesoria web*/
+	87.5%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	}/*7 OK Site WordPress*/
+	100%{
+
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	}/*8 OK Sistemas sociais*/
+}
+
+@-webkit-keyframes steam-5{
+	0%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+
+	}
+    12.5%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+   	}/*3 OK Landing Page*/
+
+	50%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	}/*6 OK Assesoria web*/
+	87.5%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	}/*7 OK Site WordPress*/
+	100%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+
+	}/*8 OK Sistemas sociais*/
+}
+
+@keyframes steam-5{
+	0%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+
+	}
+    12.5%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+   	}/*3 OK Landing Page*/
+
+	50%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	}/*6 OK Assesoria web*/
+	87.5%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	}/*7 OK Site WordPress*/
+	100%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+
+	}/*8 OK Sistemas sociais*/
+}
+
+
+@-webkit-keyframes steam-8{
+	0%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+
+	}
+    12.5%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+   	}/*3 OK Landing Page*/
+
+	50%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	}/*6 OK Assesoria web*/
+	87.5%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+	}/*7 OK Site WordPress*/
+	100%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+
+	}/*8 OK Sistemas sociais*/
+}
+
+
+@keyframes steam-8{
+	0%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+
+	}
+    12.5%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+   	}/*3 OK Landing Page*/
+
+	50%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	}/*6 OK Assesoria web*/
+	87.5%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+	}/*7 OK Site WordPress*/
+	100%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+
+	}/*8 OK Sistemas sociais*/
+}
+
+@-webkit-keyframes steam-7{
+	0%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+
+	}
+    12.5%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+   	}/*3 OK Landing Page*/
+
+	50%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+	}/*6 OK Assesoria web*/
+	87.5%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+	}/*7 OK Site WordPress*/
+	100%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+	}/*8 OK Sistemas sociais*/
+}
+
+@keyframes steam-7{
+	0%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+
+	}
+    12.5%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+
+
+	}/*2 OK Catálogo online*/
+	37.5%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+   	}/*3 OK Landing Page*/
+
+	50%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+	}/*6 OK Assesoria web*/
+	87.5%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+	}/*7 OK Site WordPress*/
+	100%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(120,120,120);
+	}/*8 OK Sistemas sociais*/
+}
+@-webkit-keyframes steam-6{
+	0%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+
+	}
+    12.5%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	}/*2 OK Catálogo online*/
+	37.5%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	
+   	}/*3 OK Landing Page*/
+
+	50%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+	}/*6 OK Assesoria web*/
+	87.5%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(80,80,80);
+	}/*7 OK Site WordPress*/
+	100%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+
+	}/*8 OK Sistemas sociais*/
+}
+@keyframes steam-6{
+	0%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+
+	}
+    12.5%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+	}/*2 OK Catálogo online*/
+	37.5%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	
+   	}/*3 OK Landing Page*/
+
+	50%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+	}/*6 OK Assesoria web*/
+	87.5%{
+   /* BORDER */
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(80,80,80);
+	}/*7 OK Site WordPress*/
+	100%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+
+	}/*8 OK Sistemas sociais*/
+}
+@-webkit-keyframes steam-4{
+	0%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+
+	}
+    12.5%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	}/*2 OK Catálogo online*/
+	37.5%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	
+   	}/*3 OK Landing Page*/
+
+	50%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(80,80,80);
+	}/*6 OK Assesoria web*/
+	87.5%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+	}/*7 OK Site WordPress*/
+	100%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+	}/*8 OK Sistemas sociais*/
+}
+@keyframes steam-4{
+	0%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+
+	}
+    12.5%{
+	 /* BORDER */
+    border-left:12px solid  #4c4c4c;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+    background:rgb(100,100,100);
+
+	}/*1 OK Sites editáveis*/
+	
+	25%{
+/* BORDER */
+	border-left:12px solid #3f3f3f;
+	border-right:12px solid #4c4c4c;
+	border-top:12px solid #3f3f3f;
+	background:rgb(80,80,80);
+	}/*2 OK Catálogo online*/
+	37.5%{
+		/* BORDER */
+	border-left:12px solid rgb(80,80,80);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(100,100,100);
+	background:rgb(140,140,140);
+	
+   	}/*3 OK Landing Page*/
+
+	50%{
+	/* BORDER */
+	border-left:12px solid rgb(100,100,100);
+	border-right:12px solid rgb(120,120,120);
+	border-top:12px solid rgb(170,170,170);
+    background:rgb(190,190,190);
+	
+	}/*4 OK Sistema de gestão*/
+	
+	62.5%{
+    border-left:12px solid  rgb(150,150,150);
+	border-right:12px solid rgb(100,100,100);
+	border-top:12px solid rgb(120,120,120);
+    background:rgb(140,140,140);
+	}/*5 OK Catálogo online*/
+	
+
+	75%{
+    border-left:12px solid  rgb(100,100,100);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(60,60,60);
+    background:rgb(80,80,80);
+	}/*6 OK Assesoria web*/
+	87.5%{
+	  /* BORDER */
+    border-left:12px solid  rgb(70,70,70);
+	border-right:12px solid rgb(50,50,50);
+	border-top:12px solid rgb(50,50,50);
+	background:rgb(70,70,70);
+	}/*7 OK Site WordPress*/
+	100%{
+	 /* BORDER */
+    border-left:12px solid  rgb(30,30,30);
+	border-right:12px solid rgb(40,40,40);
+	border-top:12px solid rgb(30,30,30);
+	background:rgb(50,50,50);
+	}/*8 OK Sistemas sociais*/
+}
+
+
+
+
+
+article{
+	left:0;
+	-ms-flex-negative:0;
+	    flex-shrink:0;
+}
+
+article div{
+	width:700px;
+	height:100%;
+	margin-left:1000px;
+	position:absolute;
+	visibility:hidden;
+}
+article h1{
+	margin-top:100px !important;
+	margin-bottom:0px;
+	font-size:3em;
+	color:white;
+	font-family:poppins;
+	line-height:1em;
+}
+article h2{
+	margin-top:6px;
+	line-height:1em;
+    font-size:1.5em;
+	color:white;
+	font-family:poppins;
+	font-weight:300;
+}
+@-webkit-keyframes openArticle{
+	0%{margin-left:-4000px;}
+	100%{margin-left:0px;}
+}
+@keyframes openArticle{
+	0%{margin-left:-4000px;}
+	100%{margin-left:0px;}
+}
+
+#serv1{
+	-webkit-animation:serv1 40s infinite;
+	        animation:serv1 40s infinite;
+	
+}
+#serv2{
+	-webkit-animation:serv2 40s infinite;
+	        animation:serv2 40s infinite;
+}
+#serv3{
+	-webkit-animation:serv3 40s infinite;
+	        animation:serv3 40s infinite;
+}
+#serv4{
+	-webkit-animation:serv4 40s infinite;
+	        animation:serv4 40s infinite;
+}
+#serv5{
+	-webkit-animation:serv5 40s infinite;
+	        animation:serv5 40s infinite;
+}
+#serv6{
+	-webkit-animation:serv6 40s infinite;
+	        animation:serv6 40s infinite;
+}
+#serv7{
+	-webkit-animation:serv7 40s infinite;
+	        animation:serv7 40s infinite;
+}
+#serv8{
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-flow:column;
+	    flex-flow:column;
+	padding-top:10%;
+	-webkit-animation:serv8 40s infinite;
+	        animation:serv8 40s infinite;
+}
+#serv8 svg{visibility:visible !important;
+flex-shrink:0 !important;
+	margin-top:20px;
+	scale:1.08;
+	fill:white;
+	-webkit-animation:come 2s infinite;
+	        animation:come 2s infinite;
+}
+@-webkit-keyframes come{
+	0%{margin-top:10px;}
+	60%{margin-top:40px;}
+	100%{margin-top:10px;}
+}
+@keyframes come{
+	0%{margin-top:10px;}
+	60%{margin-top:40px;}
+	100%{margin-top:10px;}
+}
+@-webkit-keyframes serv1{
+	0%{}
+	12.5%{visibility:visible;margin-left:0px;opacity:1;}
+	25%{opacity:0;visibility:hidden;margin-left:1000px;}
+	37.5%{}
+	50%{}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@keyframes serv1{
+	0%{}
+	12.5%{visibility:visible;margin-left:0px;opacity:1;}
+	25%{opacity:0;visibility:hidden;margin-left:1000px;}
+	37.5%{}
+	50%{}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@-webkit-keyframes serv2{
+	0%{}
+	12.5%{margin-left:1000px;}
+	25%{visibility:visible;margin-left:0px;opacity:1;}
+	37.5%{opacity:0;visibility:hidden;margin-left:1000px;}
+	50%{}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@keyframes serv2{
+	0%{}
+	12.5%{margin-left:1000px;}
+	25%{visibility:visible;margin-left:0px;opacity:1;}
+	37.5%{opacity:0;visibility:hidden;margin-left:1000px;}
+	50%{}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@-webkit-keyframes serv3{
+	0%{}
+	12.5%{}
+	25%{visibility:hidden;margin-left:1000px;}
+	37.5%{visibility:visible;margin-left:0px;opacity:1;}
+	50%{opacity:0;visibility:hidden;margin-left:1000px;}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@keyframes serv3{
+	0%{}
+	12.5%{}
+	25%{visibility:hidden;margin-left:1000px;}
+	37.5%{visibility:visible;margin-left:0px;opacity:1;}
+	50%{opacity:0;visibility:hidden;margin-left:1000px;}
+	62.5%{}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@-webkit-keyframes serv4{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{visibility:hidden;margin-left:1000px;}
+	50%{visibility:visible;margin-left:0px;opacity:1;}
+	62.5%{opacity:0;visibility:hidden;margin-left:1000px;}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@keyframes serv4{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{visibility:hidden;margin-left:1000px;}
+	50%{visibility:visible;margin-left:0px;opacity:1;}
+	62.5%{opacity:0;visibility:hidden;margin-left:1000px;}
+	75%{}
+	87.5%{}
+	100%{}
+}
+@-webkit-keyframes serv5{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{visibility:hidden;margin-left:1000px;}
+	62.5%{visibility:visible;margin-left:0px;opacity:1;}
+	75%{opacity:0;visibility:hidden;margin-left:1000px;}
+	87.5%{}
+	100%{}
+}
+@keyframes serv5{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{visibility:hidden;margin-left:1000px;}
+	62.5%{visibility:visible;margin-left:0px;opacity:1;}
+	75%{opacity:0;visibility:hidden;margin-left:1000px;}
+	87.5%{}
+	100%{}
+}
+@-webkit-keyframes serv6{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{}
+	62.5%{visibility:hidden;margin-left:1000px;}
+	75%{visibility:visible;margin-left:0px;opacity:1;}
+	87.5%{opacity:0;visibility:hidden;margin-left:1000px;}
+	100%{}
+}
+@keyframes serv6{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{}
+	62.5%{visibility:hidden;margin-left:1000px;}
+	75%{visibility:visible;margin-left:0px;opacity:1;}
+	87.5%{opacity:0;visibility:hidden;margin-left:1000px;}
+	100%{}
+}
+@-webkit-keyframes serv7{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{}
+	62.5%{}
+	75%{visibility:hidden;margin-left:1000px;}
+	87.5%{visibility:visible;margin-left:0px;opacity:1;}
+	100%{opacity:0;visibility:hidden;margin-left:1000px;}
+}
+@keyframes serv7{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{}
+	62.5%{}
+	75%{visibility:hidden;margin-left:1000px;}
+	87.5%{visibility:visible;margin-left:0px;opacity:1;}
+	100%{opacity:0;visibility:hidden;margin-left:1000px;}
+}
+@-webkit-keyframes serv8{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{}
+	62.5%{}
+	75%{visibility:visible;margin-left:1000px;opacity:0;}
+	85.5%{visibility:visible;margin-left:1000px;}
+	95%{visibility:visible;margin-left:0px;opacity:1;}
+	99%{visibility:visible;margin-left:0px;opacity:1;}
+	100%{visibility:visible;margin-left:0px;opacity:0;}
+}
+@keyframes serv8{
+	0%{}
+	12.5%{}
+	25%{}
+	37.5%{}
+	50%{}
+	62.5%{}
+	75%{visibility:visible;margin-left:1000px;opacity:0;}
+	85.5%{visibility:visible;margin-left:1000px;}
+	95%{visibility:visible;margin-left:0px;opacity:1;}
+	99%{visibility:visible;margin-left:0px;opacity:1;}
+	100%{visibility:visible;margin-left:0px;opacity:0;}
+}
+
+
+/*Cases Boom*/
+.animate-casesBoom{
+	padding-top:2rem;
+	padding-left:2rem;
+}
+.casesBoom img:nth-child(1){
+	z-index:8;
+	position:absolute;
+	-webkit-animation:main-explode 6s infinite;
+	        animation:main-explode 6s infinite;
+}
+.casesBoom img:nth-child(2){
+	position:absolute;
+	-webkit-animation:left-explode 6s forwards;
+	        animation:left-explode 6s forwards;
+}
+.casesBoom img:nth-child(3){
+	position:absolute;
+	-webkit-animation:right-explode 6s forwards;
+	        animation:right-explode 6s forwards;
+}
+
+@-webkit-keyframes main-explode{
+    0%{scale:1;}
+	50%{scale:1.6;}
+	60%{scale:1.6;}
+	100%{scale:1;}
+}
+
+@keyframes main-explode{
+    0%{scale:1;}
+	50%{scale:1.6;}
+	60%{scale:1.6;}
+	100%{scale:1;}
+}
+@-webkit-keyframes left-explode{
+    0%{scale:1;margin-left:0%;}
+	50%{scale:1.6;margin-left:60%}
+	60%{scale:1.6;margin-left:60%;}
+	100%{scale:1;margin-left:0%;}
+}
+@keyframes left-explode{
+    0%{scale:1;margin-left:0%;}
+	50%{scale:1.6;margin-left:60%}
+	60%{scale:1.6;margin-left:60%;}
+	100%{scale:1;margin-left:0%;}
+}
+@-webkit-keyframes right-explode{
+    0%{scale:1;margin-left:0%;}
+	50%{scale:1.6; margin-left:30%;}
+	60%{scale:1.6;margin-left:30%;}
+	100%{scale:1;margin-left:0%;}
+}
+@keyframes right-explode{
+    0%{scale:1;margin-left:0%;}
+	50%{scale:1.6; margin-left:30%;}
+	60%{scale:1.6;margin-left:30%;}
+	100%{scale:1;margin-left:0%;}
+}
+@media (max-width:405px){
+	#sitePresenting{
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		    -ms-flex-direction:column;
+		        flex-direction:column;
+		height:470px !important;
+		padding:0px !important;
+		-ms-flex-wrap:wrap;
+		    flex-wrap:wrap;
+		padding-bottom:1rem;
+	}
+	#steamContainer{
+		scale:74%;	
+		position:absolute;
+		top:-260px;
+		left:20vw;
+		rotate:120deg;
+	}
+	#sitePresenting article{
+		margin-top:120px;
+		scale:70%;
+		margin-left:-17vw !important;
+	}
+	article h1{
+	 margin-bottom:0px;
+	 font-size:16vw;
+	 color:white;
+	 font-family:poppins;
+	 line-height:1em;
+    }
+    article h2{
+	 margin-top:6px;
+	 line-height:1em;
+     font-size:8vw;
+	 width:70% !important;
+	 color:white;
+	 font-family:poppins;
+	 font-weight:300;
+    }
+   #serv8{
+	   -webkit-box-align:normal !important;
+	       -ms-flex-align:normal !important;
+	           align-items:normal !important;
+	   text-align:left !important;
+   }
+    #serv8 h1{
+		font-size:14vw !important;
+	}
+}
+
+@media (min-width:406px) and (max-width:541px){
+	#sitePresenting{
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		    -ms-flex-direction:column;
+		        flex-direction:column;
+		height:460px !important;
+		padding:0px !important;
+		-ms-flex-wrap:wrap;
+		    flex-wrap:wrap;
+		padding-bottom:1rem;
+	}
+	#steamContainer{
+		scale:72%;	
+		position:absolute;
+		top:-260px;
+		left:40vw;
+		rotate:120deg;
+	}
+	#sitePresenting article{
+		margin-top:120px;
+		scale:70%;
+		margin-left:-17vw !important;
+	}
+	article h1{
+	 margin-bottom:0px;
+	 font-size:12vw;
+	 color:white;
+	 font-family:poppins;
+	 line-height:1em;
+    }
+    article h2{
+	 margin-top:6px;
+	 line-height:1em;
+     font-size:6vw;
+	 width:96% !important;
+	 color:white;
+	 font-family:poppins;
+	 font-weight:300;
+    }
+   #serv8{
+	   -webkit-box-align:normal !important;
+	       -ms-flex-align:normal !important;
+	           align-items:normal !important;
+	   text-align:left !important;
+   }
+}
+@media (min-width:542px) and (max-width:601px){
+	#sitePresenting{
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		    -ms-flex-direction:column;
+		        flex-direction:column;
+		height:480px !important;
+		padding:0px !important;
+		-ms-flex-wrap:wrap;
+		    flex-wrap:wrap;
+		padding-bottom:1rem;
+	}
+	#steamContainer{
+		scale:78%;	
+		position:absolute;
+		top:-260px;
+		left:50vw;
+		rotate:120deg;
+		transform:rotate(120deg);
+	}
+	#sitePresenting article{
+		margin-top:104px;
+		scale:70%;
+		margin-left:-17vw !important;
+	}
+	article h1{
+	 margin-top:100px !important;
+	 margin-bottom:0px;
+	 font-size:12vw;
+	 color:white;
+	 font-family:poppins;
+	 line-height:1em;
+    }
+    article h2{
+	 margin-top:6px;
+	 line-height:1em;
+     font-size:6vw;
+	 width:96% !important;
+	 color:white;
+	 font-family:poppins;
+	 font-weight:300;
+    }
+   #serv8{
+	   font-size:12vw;
+	   -webkit-box-align:normal !important;
+	       -ms-flex-align:normal !important;
+	           align-items:normal !important;
+	   text-align:left !important;
+   }
+}
+/* LAPTOP AND BIGGER TABLETs */
+@media (min-width:602px) and (max-width:1200px){
+	#sitePresenting{
+		height:560px !important;
+		padding:0px !important;	
+        -webkit-box-align:top;	
+            -ms-flex-align:top;	
+                align-items:top;
+				
+	}
+	#sitePresenting article{
+		margin-top:50px !important;
+		scale:80%;
+		margin-left:38vw;
+	}
+	article h1{
+	 margin-bottom:0px;
+	 font-size:8vw;
+	}
+    article h2{
+	 margin-top:6px;
+     font-size:4vw;
+	 width:75% !important;
+	}
+   #serv8{
+	   font-size:6vw;
+	   -webkit-box-align:normal !important;
+	       -ms-flex-align:normal !important;
+	           align-items:normal !important;
+	   text-align:left !important;
+   }
+}
+@media (min-width:602px) and (max-width:681px){
+	#steamContainer{
+		scale:78%;
+        -webkit-box-align:normal;
+            -ms-flex-align:normal;
+                align-items:normal;
+        left:-40vw;		
+        position:absolute;
+		
+	}
+	#sitePresenting{height:600px !important;}
+}
+@media (min-width:682px) and (max-width:804px){
+	#steamContainer{
+		scale:76%;
+        -webkit-box-align:normal;
+            -ms-flex-align:normal;
+                align-items:normal;
+        left:-30vw;		
+        position:absolute;
+	}
+	#sitePresenting{height:600px !important;}
+}
+@media (min-width:805px) and (max-width:901px){
+	#steamContainer{
+		scale:76%;
+        -webkit-box-align:normal;
+            -ms-flex-align:normal;
+                align-items:normal;
+        left:-20vw;		
+        position:absolute;
+	}
+	#sitePresenting article{
+		margin-top:40px;
+	}
+	article h1{
+	 margin-top:100px !important;
+	 margin-bottom:0px;
+	 font-size:6vw;
+	}
+    article h2{
+	 margin-top:6px;
+     font-size:3vw;
+	 width:75% !important;
+	}
+	#sitePresenting{height:600px !important;}
+}
+@media (min-width:902px) and (max-width:1200px){
+	#steamContainer{
+		scale:76%;
+        -webkit-box-align:normal;
+            -ms-flex-align:normal;
+                align-items:normal;
+		left:-14vw;
+		position:absolute;
+	}
+	#sitePresenting{height:630px !important; }
+	#sitePresenting article{
+		margin-top:40px;
+	}
+	article h1{
+	 margin-bottom:0px;
+	 font-size:6vw;
+	}
+    article h2{
+	 margin-top:6px;
+     font-size:3vw;
+	 width:75% !important;
+	}
+}
+@media (max-width:600px){
+	.steamSquare svg{
+		rotate:-90deg;
+	}
+}
+
+@media (min-width:600px){
+	#steamContainer{
+		margin-top:-50px !important;
+	}
+	article{
+		margin-top:0px !important;
+	}
+}
+
+@media (min-width:1200px){
+	#steamContainer{margin-top:0px !important; }
+}
